@@ -1,5 +1,7 @@
 # fightcade-ping-filter
-Plugin to filter out users based on ping.
+Plugin to filter out users based on ping. Before and after demonstrated below:
+
+[![before](./img/before-and-after.png)](./img/before-and-after.png)
 
 ## Installation
 
