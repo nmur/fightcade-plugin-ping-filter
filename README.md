@@ -12,11 +12,12 @@ Download `pingFilter.js` from the latest [release](https://github.com/nmur/fight
 ## Configuration
 Modify the values to set individual ping limits (in ms) for the user list/matches. Set to 0 to disable the filter.
 
-```js
-const CONFIG = {
-    pingLimit : {
-        users: 150,
-        matches: 150
-    }
-};
+Add the following to the plugins\config.json:
+```json
+{
+    "pingFilter": {
+        "users": 150,
+        "matches": 150
+    },
+}
 ```
