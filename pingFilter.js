@@ -1,16 +1,11 @@
-const CONFIG = {
-    pingLimit: {
-        users: 150,
-        matches: 150
-    }
-};
+const config = require('./config.json');
 
 module.exports = (FCADE) => { runPlugin(FCADE) };
 
 const runPlugin = (FCADE) => {
     // Plugin code goes here
     setInterval(() => {
-        filterUsers(FCADE, CONFIG.pingLimit);
+        filterUsers(FCADE, config.pingFilter);
     }, 500);
 }
 
